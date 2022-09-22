@@ -3,7 +3,7 @@
  *
  * By:      Ethan Prieur
  * Version: 1.0
- * Since:   2022-09-15
+ * Since:   2022-09-19
  */
 
 import promptSync from 'prompt-sync'
@@ -11,14 +11,18 @@ import promptSync from 'prompt-sync'
 
 const prompt = promptSync()
 
-const item = prompt('What food do you want? (Pizza, Sub, Soup): ')
-const amountInt = prompt('What Quanity do you want? (1-3): ')
-let amountInt = parseInt(amountString)
-if item = 'sub'
+const itemType = prompt('What Food? (Sub, Pizza, Soup): ')
+const itemAmount = prompt('How Many? (1-3): ')
+if (itemType = 'Sub') {
 	time == 45
-else if
-const answer = time * percent
-console.log(`Cook time is ${ageNumber}`)
+} else if (itemType = 'Pizza') {
+	time == 60
+} else if (itemType = 'Soup') {
+	time == 90
+} else {
+	console.log("Invalid Input!)
+if (itemAmount = 2
+console.log(`Age is >  ${ageNumber}`)
 
 
 console.log('\nDone.')
